@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة علي حسن للبرمجيات</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>مدونة علي حسن للبرمجيات</h1>
+            <p>أدنى جميع قوائم مقابلات عقود الداخلية ذي قار (عقود الرعاية)</p>
+        </div>
+    </header>
+    <main>
+        <!-- قسم تحميل الملفات -->
+        <section class="buttons-section">
+            <h2>تحميل قوائم المقابلات</h2>
+            <div class="buttons-grid">
+                <button onclick="downloadFile('1.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الأولى
+                </button>
+                <button onclick="downloadFile('2.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الثانية
+                </button>
+                <button onclick="downloadFile('3.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الثالثة
+                </button>
+                <button onclick="downloadFile('4.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الرابعة
+                </button>
+                <button onclick="downloadFile('5.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الخامسة
+                </button>
+                <button onclick="downloadFile('6.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة السادسة
+                </button>
+                <button onclick="downloadFile('7.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة السابعة
+                </button>
+                <button onclick="downloadFile('8.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة الثامنة
+                </button>
+                <button onclick="downloadFile('9.pdf')" class="download-btn">
+                    <i class="fas fa-download"></i> المقابلة التاسعة
+                </button>
+            </div>
+        </section>
+
+        <!-- قسم الخيارات الإضافية -->
+        <section class="extras-section">
+            <h2>خيارات إضافية</h2>
+            <div class="extras-grid">
+                <a href="https://ali99hassan-99.github.io/ali-hassan9/" class="extra-btn">
+                    الذهاب إلى المدونة
+                </a>
+                <a href="https://t.me/ali2024hasbot" class="extra-btn">
+                    بوت البحث عن مقابلتك
+                </a>
+                <a href="https://t.me/ali99113bot" class="extra-btn">
+                    بوت إرسال اسم (بحث يدوي)
+                </a>
+                <a href="https://ali99hassan-99.github.io/names1/" class="extra-btn special-btn">
+                    أسماء الوجبة الأولى
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>للتواصل معي:</h3>
+            <div class="contact-links">
+                <a href="https://wa.me/07822621995" class="contact-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> واتساب
+                </a>
+                <a href="https://t.me/a9_9h9" class="contact-btn telegram">
+                    <i class="fab fa-telegram"></i> تلكرام
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100079286824119&mibextid=ZbWKwL" class="contact-btn facebook">
+                    <i class="fab fa-facebook"></i> فيسبوك
+                </a>
+            </div>
+            <p>جميع الحقوق محفوظة للمطور علي حسن</p>
+        </div>
+    </footer>
+    <script>
+        function downloadFile(fileName) {
+            window.location.href = fileName;
+        }
+    </script>
+</body>
+</html>
